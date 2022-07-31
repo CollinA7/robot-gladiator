@@ -102,18 +102,18 @@ var fight = function(enemyName) {
         
                 fight(pickedEnemyName);
             }
-
-            else {
-            window.alert("You have lost your robot in battle! Game Over!")
             
+            else {
+                window.alert("You have lost your robot in battle! Game Over!")
+                
+                
+            }
             
         }
-        
+        endGame();
     }
     
-    endGame();
-    
-}
+   
     
     var endGame = function() {
 
@@ -137,7 +137,11 @@ var fight = function(enemyName) {
         else {
             window.alert("Thank you for playing Robot Gladiators! Come back soon!");
         }
-    }
+}
+
+
+startGame();
+
 
 //fight();
 
