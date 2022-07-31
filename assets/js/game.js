@@ -139,12 +139,6 @@ var fight = function(enemyName) {
         }
     }
 
-var shop = function() {
-    console.log("entered the shop");
-}
-startGame();
-
-
 //fight();
 
 // Game States
