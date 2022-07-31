@@ -100,23 +100,20 @@ var fight = function(enemyName) {
                 //Resets enemyHealth before starting new fight
                 enemyHealth = 50;
         
-                debugger;
-        
                 fight(pickedEnemyName);
             }
 
             else {
             window.alert("You have lost your robot in battle! Game Over!")
-                
-            debugger;
             
-            endGame();
             
         }
-    
+        
     }
     
+    endGame();
     
+}
     
     var endGame = function() {
 
@@ -141,11 +138,13 @@ var fight = function(enemyName) {
             window.alert("Thank you for playing Robot Gladiators! Come back soon!");
         }
     }
-}
 
+var shop = function() {
+    console.log("entered the shop");
+}
 startGame();
 
-endGame();
+
 //fight();
 
 // Game States
